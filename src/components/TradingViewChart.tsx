@@ -52,7 +52,7 @@ export function TradingViewChart({
     <div
       className={`tradingview-widget-container ${className}`}
       ref={containerRef}
-      style={{ height: "500px", width: "100%" }}
+      style={{ height: className ? "100%" : "500px", width: "100%" }}
     />
   );
 }

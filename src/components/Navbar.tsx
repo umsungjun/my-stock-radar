@@ -21,14 +21,6 @@ export function Navbar() {
               MultiTrigger
             </span>
           </Link>
-          {session && (
-            <Link
-              href="/dashboard"
-              className="text-sm text-muted hover:text-foreground transition-colors font-medium"
-            >
-              대시보드
-            </Link>
-          )}
         </div>
 
         <div className="flex items-center gap-3">
